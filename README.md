@@ -62,30 +62,30 @@ The files below all contain the data from each location separated into different
 
 "SW1991_17_SW1991_17A" are half sibs <- this is read that the information in the first set of apostrophes is the ID of the first individual and then the second apostrophes is the ID of the second individual and the information within the last set of apostrophes is the relatedness outcome on those 2 individuals.
 
-# relatedness_channel.csv
-# relatedness_cwest.csv
-# relatedness_WScot.csv
-# relatedness_west.csv
-# relatedness_nsn.csv 
+relatedness_channel.csv
+relatedness_cwest.csv
+relatedness_WScot.csv
+relatedness_west.csv
+#relatedness_nsn.csv 
 
 The R output from the Demerelate function also contains information on the statistics.
-# Relatedness_Statistics.csv
-# Relatedness_t-test.csv
-# Relatedness_thresh_info.csv
+Relatedness_Statistics.csv
+Relatedness_t-test.csv
+Relatedness_thresh_info.csv
 
 The bash script when run will analyse all .csv files within that directory that start with 'relatedness_' and will compare the relatedness and heterozygosity within all the populations and it creates all of the following files:
 
-# relatedness_channel.csv.txt
-# relatedness_cwest.csv.txt
-# relatedness_WScot.csv.txt
-# relatedness_west.csv.txt
-# relatedness_nsn.csv.txt
+relatedness_channel.csv.txt
+relatedness_cwest.csv.txt
+relatedness_WScot.csv.txt
+relatedness_west.csv.txt
+relatedness_nsn.csv.txt
 
 These are the output from the python script, they contain the relatedness data between indivduals stating whether they are 'full/half siblings or not related'.These files contain the data from the samples from the different locations. 
 
-# Summary.txt <- This is a file that contains data on the expected and observed heterozygosity within the population (from this you can also work out the expected and observed homozygosity within the population - both of them together have to add up to 1 (e.g. observed heterozygosity is 0.52 observed homozygosity is 0.48). This is created from the R adegenet script.
+Summary.txt <- This is a file that contains data on the expected and observed heterozygosity within the population (from this you can also work out the expected and observed homozygosity within the population - both of them together have to add up to 1 (e.g. observed heterozygosity is 0.52 observed homozygosity is 0.48). This is created from the R adegenet script.
 
-# [name of input file].txt <- This file contains the list of relatedness from python as stated in the input.
+[name of input file].txt <- This file contains the list of relatedness from python as stated in the input.
 
 ## Example 
 Within the example file you will find a dataset that contains around 600 harbor porpoise microsatellite data that was collected around the UK. You can use this to check the outcome of the program but it can be useful to check to make sure your data is within the correct format.
