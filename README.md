@@ -91,3 +91,12 @@ Summary.txt <- This is a file that contains data on the expected and observed he
 Within the example file you will find a dataset that contains around 600 harbor porpoise microsatellite data that was collected around the UK. You can use this to check the outcome of the program but it can be useful to check to make sure your data is within the correct format.
 
 ## References
+Blouin. M.S, et al., 1996. Use of Microsatellite loci to classify individuals by relatedness. Molecular Ecology, 5, 393-401.
+
+Kraemer. P., 2017. Package 'Demerelate'. CRAN_R-project.org
+
+Jombart. T, et al., 2017. Package 'adegenet'. CRAN_R-project.org
+
+Ritland. K., 2000. Marker-Inferred relatedness as a tool for dectecting heritability in nature. Molecular Ecology, 9, 1195-1204.
+
+Fountaine. M.C, et al., 2017. Mixing of porpoise ecotypes in southwestern UK waters revealed by genetic profiling. Royal society of open science. 4: 160992.
